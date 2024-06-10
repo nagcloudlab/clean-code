@@ -1,4 +1,4 @@
 package com.example.observer;
 
-public record DoorEvent() {
+public record DoorEvent(int number, int floor) {
 }

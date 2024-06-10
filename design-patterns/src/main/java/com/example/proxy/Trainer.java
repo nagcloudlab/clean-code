@@ -1,4 +1,4 @@
-package com.example.structural.proxy;
+package com.example.proxy;
 
 public class Trainer {
     public String getCleanCodeTraining() {

@@ -1,4 +1,4 @@
-package com.example.creational.builder;
+package com.example.builder;
 
 public class App {
 
