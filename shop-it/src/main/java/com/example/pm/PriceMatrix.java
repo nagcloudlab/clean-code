@@ -1,4 +1,5 @@
 package com.example.pm;
 
-public class PriceMatrix {
+public interface PriceMatrix {
+    public double getPrice(String item);
 }
