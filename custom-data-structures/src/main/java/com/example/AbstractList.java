@@ -1,4 +1,7 @@
 package com.example;
 
-public class AbstractList {
+public abstract class AbstractList<E> implements List<E> {
+
+    //..
+
 }
