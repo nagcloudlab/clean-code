@@ -1,2 +1,5 @@
-package com.example;public enum DishType {
+package com.example;
+
+public enum DishType {
+        MEAT, FISH, OTHER
 }
