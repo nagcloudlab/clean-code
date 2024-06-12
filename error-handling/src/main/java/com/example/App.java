@@ -2,6 +2,7 @@ package com.example;
 
 // User -> Car -> Insurance
 
+import java.util.ArrayList;
 import java.util.Optional;
 
 class Insurance {
@@ -100,17 +101,19 @@ public class App {
 
         // scenario: user has a car, car has no insurance
 
-        Car car2 = new Car();
-        User user2 = new User();
-        user2.setCar(Optional.of(car2));
+//        Car car2 = new Car();
+//        User user2 = new User();
+//        user2.setCar(Optional.of(car2));
+//
+//        // get insurance name, of user's car
+//
+//        String insuranceName2 = user2.getCar()
+//                .flatMap(Car::getInsurance)
+//                .map(Insurance::getName)
+//                .orElse("Insurance not found");
+//        System.out.println(insuranceName2);
 
-        // get insurance name, of user's car
 
-        String insuranceName2 = user2.getCar()
-                .flatMap(Car::getInsurance)
-                .map(Insurance::getName)
-                .orElse("Insurance not found");
-        System.out.println(insuranceName2);
 
 
     }

@@ -9,10 +9,13 @@
         <module name="error-handling" />
         <module name="money-transfer-service" />
         <module name="functions" />
+        <module name="refactoring" />
         <module name="shop-it" />
         <module name="design-patterns" />
-        <module name="custom-data-structures" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="custom-data-structures" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
